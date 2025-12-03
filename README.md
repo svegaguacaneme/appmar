@@ -28,17 +28,19 @@ APPMAR is written in Python 3.7, and it requires a variety of dependencies to ru
 
 **Dependencies:**
 
-- cfgrib
-- gdal
-- wxpython
-- numpy==1.23.3
-- matplotlib==3.2
-- scipy
-- xarray
-- pandas
-- cartopy
-- scikit-learn
-- kneed
+- python=3.8.18
+- cfgrib=0.9.10.1
+- gdal=3.5.1
+- wxpython=4.2.1
+- numpy=1.23.3
+- matplotlib=3.2.2
+- scipy=1.9.1
+- xarray=2022.6.0
+- pandas=1.4.4
+- cartopy=0.20.3
+- scikit-learn=1.1.2
+- kneed=0.7.0
+- findlibs=0.0.5
 
 In order to install and run APPMAR, follow these steps:
 
@@ -47,7 +49,7 @@ In order to install and run APPMAR, follow these steps:
 2. Create a new conda environment for APPMAR and its dependencies:
 
 ```
-conda create -n my-new-env -c conda-forge "python>=3.7" cfgrib gdal wxpython numpy==1.23.3 matplotlib=3.2 scipy xarray pandas cartopy scikit-learn kneed
+conda create -n my-new-env -c conda-forge python=3.8.18 cfgrib=0.9.10.1 gdal=3.5.1 wxpython=4.2.1 numpy=1.23.3 matplotlib=3.2.2 scipy=1.9.1 xarray=2022.6.0 pandas=1.4.4 cartopy=0.20.3 scikit-learn=1.1.2 kneed=0.7.0 findlibs=0.0.5
 ```
 
 3. Activate the new environment:
